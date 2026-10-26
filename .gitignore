@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+
+# Generated output (keep the folder, not generated files)
+output/*.csv
+output/*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
